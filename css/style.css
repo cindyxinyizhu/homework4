@@ -36,7 +36,11 @@ nav a{
 /*Your Code Here*/
 /*Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
-nav a:hover nav a:focus{
+nav a:hover{
+  text-decoration: underline;
+}
+
+nav a:focus{
   text-decoration: underline;
 }
 
@@ -100,6 +104,8 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
  
 
   grid-column: 1 / -1;  /*Can you explain what this does?*/
